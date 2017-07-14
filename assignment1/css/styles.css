@@ -1,0 +1,134 @@
+/* col heights */
+
+.tall {
+	height: 1000px;
+}
+
+/* clearfix */
+
+.clearfix {
+	display: block;
+	float: none;
+	clear: both;
+}
+
+/* media queries desktop */
+
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+	.col-dk-12 {
+		width: 100%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #862d59;
+	}
+	.col-dk-1 {
+		width: 8.33%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #ffcc00;
+	}
+	.col-dk-2{
+		width: 16.66%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #c6c6ec;
+	}
+	.col-dk-3{
+		width: 24.99%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #ff9999;
+	}
+	.col-dk-6{
+		width: 50%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #145252;
+	}
+}
+
+/* media queries tablet */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.col-md-12 {
+		width: 100%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #862d59;
+	}
+	.col-md-1 {
+		width: 8.33%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #ffcc00;
+	}
+	.col-md-2{
+		width: 16.66%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #c6c6ec;
+	}
+	.col-md-3{
+		width: 24.99%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #ff9999;
+	}
+	.col-md-6{
+		width: 50%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #145252;
+	}
+}
+
+/* media queries mobile */
+
+@media screen and (min-width: 180px) and (max-width: 768px) {
+	.col-sm-12 {
+		width: 100%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #862d59;
+	}
+	.col-sm-1 {
+		width: 8.33%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #ffcc00;
+	}
+	.col-sm-2{
+		width: 16.66%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #c6c6ec;
+	}
+	.col-sm-3{
+		width: 24.99%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #ff9999;
+	}
+	.col-sm-6{
+		width: 50%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		background-color: #145252;
+	}
+}
+
